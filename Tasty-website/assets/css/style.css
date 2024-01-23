@@ -32,7 +32,6 @@ li a {
 .header h1 {
   border: 1px solid white;
   color: white;
-  
 }
 .fa-solid.fa-bars {
   display: none;
@@ -69,10 +68,9 @@ li a {
   border: 2px solid white;
   font-size: 2rem;
 }
-.book:hover{
-background-color: white;
-color: #27272b;
-
+.book:hover {
+  background-color: white;
+  color: #27272b;
 }
 
 @media only screen and (max-width: 767px) {
