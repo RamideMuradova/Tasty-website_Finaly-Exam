@@ -16,6 +16,7 @@ td {
   border: 1px solid black !important;
   padding: 20px;
   margin-top: 70px;
+  background-color: wheat;
 }
 table img {
   width: 100px;
@@ -33,4 +34,11 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 gap: 20px;
+background-color: bisque;
+}
+.delete{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border: none;
 }
