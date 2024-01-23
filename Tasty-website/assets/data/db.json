@@ -1,32 +1,32 @@
 {
   "products": [
     {
-      "id": "1",
-      "image": "",
+      "id": 1,
+      "image": "./assets/images/dessert-5.jpg",
       "title": "Grilled Beef with potatoes",
       "desc": "Meat, Potatoes, Rice, Tomatoe",
       "price": "$29",
       "category": "main"
     },
     {
-      "id": "2",
-      "image": "",
+      "id": 2,
+      "image": "./assets/images/dessert-3.jpg",
       "title": "Fruit Vanilla Ice Cream",
       "desc": "Meat, Potatoes, Rice, Tomatoe",
       "price": "$29",
       "category": "dessert"
     },
     {
-      "id": "3",
-      "image": "",
+      "id": 3,
+      "image": "./assets/images/dessert-4.jpg",
       "title": "Spicy Fried Rice & Bacon",
       "desc": "Meat, Potatoes, Rice, Tomatoe",
       "price": "$29",
       "category": "drinks"
     },
     {
-      "id": "4",
-      "image": "",
+      "id": 4,
+      "image": "./assets/images/dessert-4.jpg",
       "title": "Asian Hoisin Pork",
       "desc": "Meat, Potatoes, Rice, Tomatoe",
       "price": "$29",

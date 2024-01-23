@@ -1,4 +1,4 @@
-const BASE_URL = ``;
+const BASE_URL = `http://localhost:8080/products`;
 const menuCards = document.querySelector(".menu-cards");
 const main = document.querySelector(".main");
 const dessert = document.querySelector(".dessert");
@@ -21,10 +21,12 @@ function drawMenu(data) {
         <img src="${element.image}" alt="" />
       </div>
       <div class="menu-text">
-        <h5>"${element.title}"</h5>
+        <h4>"${element.title}"</h4>
         <p>"${element.desc}"</p>
       </div>
       <p>"${element.price}"</p>
+      <a href="details.html" onclick="deletebtn(${element.id},this)"></a>
+      <button class="delete" onclick=deletebtn(${element.id})>DELETE</button>
     </div>
          `;
   });
@@ -49,7 +51,7 @@ btns.forEach((element) => {
   });
 });
 
-async function deletemenu(id, btn) {
+async function deletebtn(id, btn) {
   if (confirm("are you sure delete???")) {
     await axios.delete(`${BASE_URL}/${id}`);
     btn.closest(".card").remove();

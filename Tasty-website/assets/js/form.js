@@ -7,7 +7,7 @@ let sortBtn = document.querySelector(".sortBtn");
 
 let menuArr;
 let copyMenuArr;
-const BASE_URL = ``;
+const BASE_URL = `http://localhost:8080/products`;
 
 // get
 

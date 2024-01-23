@@ -66,3 +66,42 @@ li a {
   }
 }
 /* Our menu section  */
+.menu {
+  margin-top: 70px;
+  text-align: center;
+}
+.buttons button {
+  padding: 5px 15px;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  background-color: #ffb400;
+  color: white;
+}
+.menu-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  
+}
+.menu-card {
+  /* border: 0.5px solid black; */
+  width: 30%;
+  flex-direction: column;
+}
+.menu-text {
+  flex-direction: column;
+}
+.menu-card img {
+  width: 100%;
+  border-radius: 80%;
+  padding: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .menu-cards {
+    flex-direction: column;
+  }
+  .menu-card img{
+    width: 100%;
+  }
+}
