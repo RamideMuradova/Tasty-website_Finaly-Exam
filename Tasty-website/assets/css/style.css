@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Header Section */
+header {
+  background-color: grey;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+.header h1 {
+  border: 1px solid white;
+  color: white;
+}
+.fa-solid.fa-bars {
+  display: none;
+  font-size: 1.2rem;
+  color: white;
+}
+@media only screen and (max-width: 767px) {
+  nav {
+    display: none;
+  }
+  .fa-solid .fa-bars {
+    display: block;
+  }
+}
+
+/* Hero Banner section */
+
+.hero-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.hero-right {
+  color: rgb(134, 128, 128);
+}
+.hero-right h4 {
+  color: black;
+}
+@media only screen and (max-width: 767px) {
+  .hero-banner {
+    flex-direction: column;
+  }
+}
+/* Our menu section  */
