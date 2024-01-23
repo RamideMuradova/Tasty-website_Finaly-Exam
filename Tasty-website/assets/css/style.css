@@ -12,6 +12,7 @@
 /* Header Section */
 header {
   background-color: grey;
+  padding: 30px;
 }
 .header {
   display: flex;
@@ -31,12 +32,49 @@ li a {
 .header h1 {
   border: 1px solid white;
   color: white;
+  
 }
 .fa-solid.fa-bars {
   display: none;
   font-size: 1.2rem;
   color: white;
 }
+.carousel-item img {
+  z-index: 100 !important;
+}
+#carouselExample {
+  position: relative;
+  height: 100vh;
+  z-index: 13 !important;
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel-text {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.carousel-inner-text {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  z-index: 9999;
+}
+.book {
+  padding: 10px;
+  color: white;
+  background-color: transparent;
+  margin-left: 20%;
+  border: 2px solid white;
+  font-size: 2rem;
+}
+.book:hover{
+background-color: white;
+color: #27272b;
+
+}
+
 @media only screen and (max-width: 767px) {
   nav {
     display: none;
@@ -153,4 +191,29 @@ li a {
   .blog-cards {
     flex-direction: column;
   }
+}
+#footer {
+  background-color: #27272b;
+  margin-top: 80px;
+}
+.footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 50px;
+}
+.hours {
+  width: 50%;
+}
+@media only screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+#p {
+  background-color: #27272b;
+  text-align: center;
+  color: white;
 }
