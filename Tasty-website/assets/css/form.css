@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid black !important;
+  padding: 20px;
+  margin-top: 70px;
+}
+table img {
+  width: 100px;
+}
+.input-btn{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 60px;
+}
+.box input {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 20px;
+}

@@ -12,16 +12,17 @@ const BASE_URL = `http://localhost:8080/products`;
 // get
 
 async function getAllProducts() {
+  try {
     const res = await axios(`${BASE_URL}`);
     console.log(res.data);
-    menuArr=res.data
-    copyMenuArr=[...res.data]
-    drawTable(res.data)
+    menuArr = res.data;
+    copyMenuArr = [...res.data];
+    drawTable(res.data);
+  } catch (error) {
+    console.log(error);
   }
-  getAllProducts();
-
-
-
+}
+getAllProducts();
 
 // draw table
 
@@ -109,5 +110,3 @@ sortBtn.addEventListener("click", function () {
   }
   drawTable(sorted);
 });
-
-

@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "image": "./assets/images/dessert-3.jpg",
+      "image": "./assets/images/dessert-4.jpg",
       "title": "Fruit Vanilla Ice Cream",
       "desc": "Meat, Potatoes, Rice, Tomatoe",
       "price": "$29",
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "image": "./assets/images/dessert-4.jpg",
+      "image": "./assets/images/dessert-5.jpg",
       "title": "Spicy Fried Rice & Bacon",
       "desc": "Meat, Potatoes, Rice, Tomatoe",
       "price": "$29",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "image": "./assets/images/dessert-4.jpg",
+      "image": "./assets/images/dessert-5.jpg",
       "title": "Asian Hoisin Pork",
       "desc": "Meat, Potatoes, Rice, Tomatoe",
       "price": "$29",

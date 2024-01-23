@@ -23,7 +23,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script defer nsrc="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script defer src="./assets/js/form.js"></script>
     <title>Tasty Website</title>
   </head>
@@ -34,17 +34,22 @@
     </div>
     <section id="form">
       <div class="container">
-        <div class="form">
+        <div class="box">
           <form action="">
             <input type="file" name="" id="" placeholder="" />
+            <br>
             <input type="text" name="" id="" placeholder="title" />
+            <br>
             <input type="text" name="" id="" placeholder="description" />
+            <br>
             <input type="number" min="1" placeholder="price" />
+            <br>
             <select name="" id="">
-              <option value="main"></option>
-              <option value="dessert"></option>
-              <option value="drinks"></option>
+              <option value="main">Main</option>
+              <option value="dessert">Dessert</option>
+              <option value="drinks">Drinks</option>
             </select>
+            <button class="add">Add to card</button>
           </form>
 
           <!-- table -->
